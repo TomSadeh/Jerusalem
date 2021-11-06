@@ -84,8 +84,8 @@ file_names = pd.read_csv(r'')
 results = pd.DataFrame()
 
 #Importing PPI and CPI data files.
-ppi = pd.read_csv(r'C:\Users\dtsj8\OneDrive\Documents\Work\GNI project\ppi.csv', index_col = 'Year')
-cpi = pd.read_csv(r'C:\Users\dtsj8\OneDrive\Documents\Work\GNI project\cpi.csv', index_col = 'Year')
+ppi = pd.read_csv(r'', index_col = 'Year')
+cpi = pd.read_csv(r'', index_col = 'Year')
 
 #A flag for including only jews in the calculations.
 flag_jews = False
